@@ -1,0 +1,38 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "bizcharts visulization interactive",
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lidasong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "chalk": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.41.6",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.11.1",
+    "bizcharts": "^3.5.7",
+    "react": "^16.13.0",
+    "react-loadable": "^5.5.0"
+  }
+}
